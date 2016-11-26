@@ -5,3 +5,6 @@ nc -v -n -l -p 1234
 Obtener shell despues de entrar con reverse 
 echo "import pty; pty.spawn('/bin/bash')" > /tmp/asdf.py
 python /tmp/asdf.py
+
+otra opcion
+python -c 'import pty;pty.spawn("/bin/sh")'
